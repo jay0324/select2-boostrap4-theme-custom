@@ -111,6 +111,17 @@ form.was-validated select:valid ~ .select2-container--custom .select2-selection 
   .select2-container--custom .select2-selection__clear:hover {
     background-color: #afafaf; }
 
+.select2-mask {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.b-form-field.open {
+  position: relative;
+  z-index: 10; }
+
 .select2-container--custom .select2-selection--single {
   height: 57px !important; }
   .select2-container--custom .select2-selection--single .select2-selection__placeholder {
